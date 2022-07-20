@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="navleft">
+      <img src="images/logo.svg" alt="" height="30px
+      ">
+      <div class="first">
+      <div id="feature-dropdown" class="feature-dropdown" onclick="togglefeatureMenu()">
+        <div class="feat">Features</div>
+        <div id="features-menu" class="features-menu" >
+          <div class="menu-list">
+            <img src="images/icon-todo.svg" alt="">
+            <div>Todo List</div>
+          </div>
+          <div class="menu-list">
+            <img src="images/icon-calendar.svg" alt="">
+            <div>Calender</div>
+          </div>
+          <div class="menu-list">
+            <img src="images/icon-reminders.svg" alt="">
+            <div>Reminders</div>
+          </div>
+          <div class="menu-list">
+            <img src="images/icon-planning.svg" alt="">
+            <div>planning</div>
+          </div>
+        </div></div>
+        <div class="dropdown">
+          <img id="arrow-up" class="arrow-up" src="images/icon-arrow-up.svg" alt=""  >
+          <img id="arrow-down" class="arrow-down" src="images/icon-arrow-down.svg" alt="">
+        </div>
+      </div>
+      <div class="second">
+      <div id="company-dropdown" class="company-dropdown" onclick="toggleCompanyMenu()">
+        <div class= "com ">Company</div> 
+        <div class="company-detail" id="company-detail" >
+          <ul>
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog
+            </li>
+          </ul>
+        </div>
+      </div>
+        <div class="dropdown">
+          <img id="arrow-up2" class="arrow-up" src="images/icon-arrow-up.svg" alt="" >
+          <img id="arrow-down2" class="arrow-down" src="images/icon-arrow-down.svg" alt="">
+        </div>
+      </div>
+
+      <div class="carrer-btn">Careers</div>
+      <div class="about-btn">About</div>
+    </div>
+    <div class="navright">
+      <button class="login-btn">Login</button>
+      <button class="register-btn">Register</button>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="left-container">
+      <h1 class="title">Make remote work</h1>
+      <p class="detail">Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.</p>
+      <button class="learn">Learn more</button>
+      <div class="image-contanier">
+        <img src="images/client-audiophile.svg" alt="" height="30px
+        ">
+        <img src="images/client-databiz.svg" alt="" height="30px
+        ">
+        <img src="images/client-maker.svg" alt="" height="30px
+        ">
+        <img src="images/client-meet.svg" alt="" height="30px
+        ">
+      </div>
+    </div>
+
+    <div class="right-container">
+      <img src="images/image-hero-desktop.png" alt="">
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#"> Himanshu Yadav </a>.
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

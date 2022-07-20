@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+#navbar {
+    margin: 15px 15px 120px 15px;
+    /* top | right | bottom | left */
+    display: flex;
+    justify-content: space-between;
+}
+
+.navleft {
+    display: flex;
+}
+
+.dropdown {
+    display: flex;
+    margin-top: 6px;
+    margin-left: 10px;
+    flex-direction: column;
+    cursor: pointer;
+}
+.arrow-up{
+    opacity: 0;
+}
+.arrow-down{
+    opacity: 1;
+}
+.first{
+    display: flex;
+    height: 50px;
+}
+.feat{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.feature-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.features-menu{
+    border-radius: 12px;
+    background-color: white;   
+    width: 120px; 
+    margin-left: -14px;
+    margin-top: 10px;
+    padding: 12px 20px;
+    box-shadow: 0 6px 6px 8px rgb(72 74 78 / 10%);
+    display: none;
+    position: relative;
+}
+
+.features-dropdown 
+.features-menu {
+	position: absolute;
+}
+
+.second{
+    display: flex;
+    height: 50px;
+}
+.company-detail li{
+    list-style: none;
+    padding-top: 12px;
+    font-size: 12px;
+}
+.com{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#company-detail{
+    background-color: white; 
+    text-align: center;  
+    margin-left: 0px;
+    width: 100px; 
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: white;  
+    padding-bottom: 12px;
+    box-shadow: 0 6px 6px 8px rgb(72 74 78 / 10%);
+    display: none;
+}
+.company-dropdown {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.carrer-btn {
+    margin-top: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.about-btn {
+    margin-top: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.login-btn { 
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: white;
+    border-color: white;
+}
+
+.login-btn:hover {
+    background: red;
+    transition: 0.5s ease-in-out;
+}
+
+.register-btn {
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 12px;
+    background: white;
+}
+
+.register-btn:hover {
+    background: blue;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.right-container img {
+    width: 550px;
+    padding-right: 150px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 97px;
+    width: 95%;
+    line-height: 90px;
+}
+
+.detail {
+    margin-top: 50px;
+    width: 55%;
+    line-height: 25px;
+}
+
+.learn {
+    width: 20%;
+    margin-top: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    padding: 15px 12px 15px 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.learn:hover {
+    background-color: rgb(42, 0, 228);
+    transition: 1s ease-out;
+}
+
+.image-contanier {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-bottom: 52px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: large;
+    background-color: rgb(255, 201, 119);
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
